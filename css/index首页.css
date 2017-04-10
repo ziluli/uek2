@@ -1,0 +1,409 @@
+/*
+* @Author: dell
+* @Date:   2017-04-05 20:03:44
+* @Last Modified by:   dell
+* @Last Modified time: 2017-04-10 10:21:51
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0.1rem;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+img{
+	display: block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+.head{
+	width: 100%;
+	height: 0.4rem;
+	background: #47afff;
+	align-items: center;
+	display: flex;
+	padding: 0 0.1rem;
+	position:absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.head .left{
+	width: 70%;
+	height: 75%;
+	background: white;
+	display: flex;
+	padding: 0 0.05rem;
+	border-radius: 0.03rem;
+	align-items: center;
+}
+.head .left input{
+	border: 0;
+}
+.head .left .close{
+	width: 0.22rem;
+	height: 0.22rem;
+	border-radius: 50%;
+	margin-left: 0.6rem;
+	background: url('../img/close.png') 0 0 no-repeat;
+	background-size: 1rem;
+}
+
+.head .call{
+	width: 18.75%;
+	height: 75%;
+	background: #03159B;
+	border-radius: 0.08rem;
+	margin-left: 0.07rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: white;
+	font-size: 0.12rem;
+}
+.img{
+	width: 100%;
+	height: 1.8rem;
+	background-image: url('../img/banner_02.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -0.8rem;
+}
+.tubiao{
+	display: flex;
+	flex-wrap: wrap;
+	width: 3.03rem;
+	height: 1.94rem;
+	padding: 0.11rem 0.08rem 0 0.08rem;
+	background: #F5F6FA;
+}
+.tubiao li{
+	width: 0.66rem;
+	height: 0.83rem;
+	margin-right: 0.12rem;
+	margin-bottom: 0.13rem;
+	line-height: 0.5rem;
+	text-align: left;
+}
+.tubiao li a h1{
+	margin-left: 0;
+	font-size: 0.12rem;
+}
+.tubiao li a .zi{
+	margin-left: 0.15rem;
+}
+.tubiao li:nth-child(4){
+	margin-right: 0;
+}
+.tubiao li:nth-child(8){
+	margin-right: 0;
+}
+.tubiao li a{
+	width: 0.55rem;
+	height: 0.55rem;
+	padding-top: 0.1rem;
+	padding-left: 0.1rem;
+	background: white;
+	border-radius: 0.08rem;
+}
+.tubiao li a .tu1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu2{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: -0.4rem 0;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu3{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: 0.05rem -0.45rem;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu4{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/全栈.png');
+	background-size: 0.44rem;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu5{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: -0.4rem -0.45rem;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu6{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: 0.05rem -1.4rem;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu7{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: 0.05rem -0.9rem;
+	background-repeat: no-repeat;
+}
+.tubiao li a .tu8{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.84rem;
+	background-position: -0.4rem -0.9rem;
+	background-repeat: no-repeat;
+}
+.title{
+	width: 100%;
+	height: 0.26rem;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 0.26rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color: #1378ba;
+}
+.two{
+	width: 100%;
+	height: 0.92rem;
+}
+.two .two1{
+	width: 47.5%;
+	height: 0.56rem;
+	border-right: 1px solid #e8e8e8;
+	padding: 0.16rem 0 0.2rem 0.06rem;
+	border-bottom: 1px solid #e8e8e8;
+	float: left;
+}
+.two .two1 .left{
+	width: 0.76rem;
+	height: 100%;
+	float: left;
+}
+.two .two1 .left h3{
+	color:#9F9F9F;
+	line-height: 0.2rem;
+}
+.two .two1 .right{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.8rem;
+	background-position: 0 -1.75rem;
+	background-repeat: no-repeat;
+}
+.two .two2{
+	width: 47.5%;
+	height: 0.56rem;
+	padding: 0.16rem 0 0.2rem 0.06rem;
+	border-bottom: 1px solid #e8e8e8;
+	float: left;
+}
+.two .two2 .left{
+	width: 0.76rem;
+	height: 100%;
+	float: left;
+}
+.two .two2 .left h3{
+	color:#9F9F9F;
+	line-height: 0.2rem;
+}
+.two .two2 .right{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.8rem;
+	background-position: 0 -2.35rem;
+	background-repeat: no-repeat;
+}
+.three{
+	width: 100%;
+	height: 0.58rem;
+}
+.three1{
+	width:30.3%;
+	height: 0.25rem;
+	border-right: 1px solid #e8e8e8;
+	padding: 0.17rem 0 0.16rem 0.08rem;
+	float: left;
+}
+.three1 .left{
+	width: 0.3rem;
+	height: 0.3rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.8rem;
+	background-position: 0.05rem -2.9rem;
+	background-repeat: no-repeat;
+	float: left;
+}
+.three1 .right{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	padding-top: 0.06rem;
+	margin-left: 0.02rem;
+}
+.three1 .right h3{
+	color:#9F9F9F;
+}
+.three2{
+	width:30.3%;
+	height: 0.25rem;
+	border-right: 1px solid #e8e8e8;
+	padding: 0.17rem 0 0.16rem 0.08rem;
+	float: left;
+}
+.three2 .left{
+	width: 0.3rem;
+	height: 0.3rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.8rem;
+	background-position: -0.26rem -2.9rem;
+	background-repeat: no-repeat;
+	float: left;
+}
+.three2 .right{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	padding-top: 0.06rem;
+	margin-left: 0.02rem;
+}
+.three2 .right h3{
+	color:#9F9F9F;
+}
+.three3{
+	width:30.3%;
+	height: 0.25rem;
+	padding: 0.17rem 0 0.16rem 0.08rem;
+	float: left;
+}
+.three3 .left{
+	width: 0.3rem;
+	height: 0.3rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.8rem;
+	background-position: -0.52rem -2.9rem;
+	background-repeat: no-repeat;
+	float: left;
+}
+.three3 .right{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	padding-top: 0.06rem;
+	margin-left: 0.02rem;
+}
+.three3 .right h3{
+	color:#9F9F9F;
+}
+.kong{
+	width: 100%;
+	height: 0.4rem;
+}
+.part{
+	width: 100%;
+	height: 0.38rem;
+	background: #e7e7e7;
+	position: fixed;
+	bottom: 0;
+}
+.part1{
+	width: 0.96rem;
+	height: 0.34rem;
+	background: #e7e7e7;
+	text-align: center;
+	float: left;
+}
+.part1 .left{
+	width: 0.13rem;
+	height: 0.13rem;
+	margin-top: 0.11rem;
+	margin-left: 0.11rem;
+	background-image: url('../img/qq.png');
+	background-size: 0.14rem;
+	float: left;
+}
+.part1 p{
+	float: left;
+	line-height: 0.34rem;
+	margin-left: 0.06rem;
+}
+.part2{
+	width: 1.28rem;
+	height: 0.38rem;
+	background: #ff8d12;
+	box-shadow: 0px 0px 0.15rem #ff8d12;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	top: -0.05rem;
+	border-radius: 0.05rem;
+}
+.part2 .left{
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-top: 0.11rem;
+	margin-left: 0.28rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 1rem;
+	background-position: -0.8rem -2.41rem;
+	float: left;
+}
+.part2 p{
+	float: left;
+	line-height: 0.34rem;
+	margin-left: 0.05rem;
+	color: white;
+	font-size: 0.14rem;
+}
+.part3{
+	width: 0.96rem;
+	height: 0.34rem;
+	background: #e7e7e7;
+	text-align: center;
+	float: right;
+}
+.part3 .left{
+	width: 0.13rem;
+	height: 0.13rem;
+	margin-top: 0.11rem;
+	margin-left: 0.11rem;
+	background-image: url('../img/shouye6.png');
+	background-size: 0.98rem;
+	background-position: -0.80rem -2.63rem;
+	float: left;
+}
+.part3 p{
+	float: left;
+	line-height: 0.34rem;
+	margin-left: 0.06rem;
+}
